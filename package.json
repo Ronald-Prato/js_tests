@@ -1,0 +1,15 @@
+{
+  "name": "js_tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "scripts": {
+    "e1": "jest ./e1/e1.test.js",
+    "e2": "jest ./e2/e2.test.js",
+    "e3": "jest ./e3/e3.test.js",
+    "all": "jest ./e1/e1.test.js ./e2/e2.test.js ./e3/e3.test.js"
+  }
+}
